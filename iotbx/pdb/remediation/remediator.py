@@ -253,7 +253,7 @@ class Remediator():
         non_v3_atoms_count=non_v3_atoms_count+1
       #print(atom.name)
     return non_v3_atoms_count == 0
-  
+
   def remediate_model_object(self, model, convert_to_new):
     self.residues_dict = {}
     non_v3_atoms_count = 0

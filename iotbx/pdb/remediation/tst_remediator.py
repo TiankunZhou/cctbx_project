@@ -1,8 +1,8 @@
+from __future__ import division
 import time
 
 import remediator
 import iotbx.pdb
-import mmtbx
 
 def test_pdb_to_v3(old_pdb_file, v3_pdb_file):
   remed = remediator.Remediator()
